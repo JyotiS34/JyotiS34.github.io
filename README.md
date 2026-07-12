@@ -51,7 +51,7 @@ Fine-tuned `bert-base-uncased` for review sentiment classification, with full tr
 **🎮 [AeroSim6 — 6-DOF Drone Flight Simulator](https://github.com/JyotiS34/AeroSim6)**
 A physically accurate 6-degrees-of-freedom flight simulator built solo in Panda3D, with inertia-based dynamics, delta-time-scaled physics, and a modular architecture separating flight dynamics, input handling, and scene management.
 
-**💬 Team Documentation Q&A Chatbot(https://github.com/JyotiS34/Generative-AI-Workflow-with-LangChain-and-Vector-Store-for-Internal-Q-A-Bot)**
+**💬 [Team Documentation Q&A Chatbot](https://github.com/JyotiS34/Generative-AI-Workflow-with-LangChain-and-Vector-Store-for-Internal-Q-A-Bot)**
 A Retrieval-Augmented Generation chatbot over internal technical documentation, using LangChain, FAISS, and Chroma with a custom chunking and re-ranking strategy for long-form retrieval precision.
 
 ---
