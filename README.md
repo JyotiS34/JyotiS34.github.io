@@ -4,7 +4,7 @@
 
 # Jyotirmoy Saikia
 
-**B.Tech ECE (Class of 2026) · ML Systems & LLM Evaluation**
+**B.Tech ETE (Class of 2026) · ML Systems & LLM Evaluation**
 
 Distributed training infrastructure · RLHF & LLM evaluation · Full-stack AI applications
 
