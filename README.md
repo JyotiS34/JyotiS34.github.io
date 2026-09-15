@@ -21,7 +21,7 @@ Distributed training infrastructure · RLHF & LLM evaluation · Full-stack AI ap
 I build the infrastructure layer where training efficiency meets model evaluation. My work spans hand-rolled multi-GPU training pipelines, LLM output evaluation at scale, and shipping full-stack AI products end to end — I like tracing a system down to the hardware trace, not just running it.
 
 - 🔭 Worked as an **AI/ML Analyst at Outlier**, providing RLHF preference signal and cataloguing model failure modes across code generation, reasoning, and instruction-following tasks.
-- 🧪 Incoming **Research Intern at VLED Lab, IIT Ropar** (starting August 2026).
+- 🧪 Selected for the **Research Intern at VLED Lab, IIT Ropar**.
 - 🌍 Research collaborator at **MIT Critical Data**, under Dr. Leo Anthony Celi, M.D., M.S., M.P.H.
 - 🎓 Selected for the **YEL Summer Cohort 2026**, from 2,000+ applicants across 73 countries.
 - ⚡ I debug distributed training the hard way — I've reproduced and documented gradient explosions, CUDA OOM crashes, and silent `DistributedSampler` bugs, not just fixed them.
