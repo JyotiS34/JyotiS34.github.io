@@ -2,6 +2,8 @@
 
 <img src="jyotirmoy_equation_reveal.gif" width="420" />
 
+</div>
+
 ---
 
 # Jyotirmoy Saikia
