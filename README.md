@@ -71,7 +71,7 @@ An AI customer-support agent that classifies intent, drafts grounded replies, an
 ### Achievements
 
 - 🏆 Selected for **YEL Summer Cohort 2026** — 2,000+ applicants, 73 countries
-- 🔬 Research Intern, **VLED Lab, IIT Ropar** (commencing August 2026)
+- 🔬 Research Intern, **VLED Lab, IIT Ropar**
 - 🏥 Research under **Dr. Leo Anthony Celi**, MIT Critical Data
 - 🎖️ **NEC Merit Scholarship** recipient
 - ✅ Qualified on-campus interviews at ORC Engineering and ELEATION
