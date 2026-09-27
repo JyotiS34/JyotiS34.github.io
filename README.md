@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="jyotirmoy_equation_reveal.gif" width="420" />
+<img src="jyotirmoy_equation_reveal.gif" width="420"/>
 
 </div>
 
@@ -22,6 +22,7 @@ Distributed training infrastructure · RLHF & LLM evaluation · Full-stack AI ap
 
 I build the infrastructure layer where training efficiency meets model evaluation. My work spans hand-rolled multi-GPU training pipelines, LLM output evaluation at scale, and shipping full-stack AI products end to end — I like tracing a system down to the hardware trace, not just running it.
 
+- Member of NASA Open Science Data Repository's Analysis Working Group (AWG). Active in the AI/ML AWG.
 - 🔭 Worked as an **AI/ML Analyst at Outlier**, providing RLHF preference signal and cataloguing model failure modes across code generation, reasoning, and instruction-following tasks.
 - 🧪 Selected for the **Research Intern at VLED Lab, IIT Ropar**.
 - 🌍 Research collaborator at **MIT Critical Data**, under Dr. Leo Anthony Celi, M.D., M.S., M.P.H.
@@ -55,6 +56,8 @@ A physically accurate 6-degrees-of-freedom flight simulator built solo in Panda3
 
 **💬 [Team Documentation Q&A Chatbot](https://github.com/JyotiS34/Generative-AI-Workflow-with-LangChain-and-Vector-Store-for-Internal-Q-A-Bot)**
 A Retrieval-Augmented Generation chatbot over internal technical documentation, using LangChain, FAISS, and Chroma with a custom chunking and re-ranking strategy for long-form retrieval precision.
+**[Aurora](https://github.com/JyotiS34/Aurora-Webapp)**
+A portfolio webapp showcasing an entity-aware BERT sentiment classifier — live demo, training deep-dive, and distributed pipeline visualisation.
 
 ---
 
