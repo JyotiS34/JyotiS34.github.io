@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="jyotirmoy_equation_reveal.gif" width="420" alt="Jyotirmoy Saikia" />
+<img src="jyotirmoy_equation_reveal.gif" width="420" />
 
 </div>
 
@@ -15,7 +15,6 @@ Distributed training infrastructure · RLHF & LLM evaluation · Full-stack AI ap
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/jyotirmoy-saikia-890002279)
 [![Email](https://img.shields.io/badge/Email-Reach%20out-D14836?style=flat&logo=gmail&logoColor=white)](mailto:jyotirmoysaikia05153@gmail.com)
 [![Kaggle](https://img.shields.io/badge/Kaggle-jyotirmoy32-20BEFF?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/jyotirmoy32)
-
 
 </div>
 
