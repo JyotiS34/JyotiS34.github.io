@@ -56,8 +56,15 @@ A physically accurate 6-degrees-of-freedom flight simulator built solo in Panda3
 
 **💬 [Team Documentation Q&A Chatbot](https://github.com/JyotiS34/Generative-AI-Workflow-with-LangChain-and-Vector-Store-for-Internal-Q-A-Bot)**
 A Retrieval-Augmented Generation chatbot over internal technical documentation, using LangChain, FAISS, and Chroma with a custom chunking and re-ranking strategy for long-form retrieval precision.
+
 **[Aurora](https://github.com/JyotiS34/Aurora-Webapp)**
 A portfolio webapp showcasing an entity-aware BERT sentiment classifier — live demo, training deep-dive, and distributed pipeline visualisation.
+
+**[AI Passport Consent Audit](https://github.com/JyotiS34/AI-Passport-Consent-Audit)**
+An consent audit that reveals not just what permissions exist, but what your combined permissions actually expose about you across AI systems.
+
+**[Aabir — AI Support Agent for @AmazonHelp](https://github.com/JyotiS34/aabir-support-agent)**
+An AI customer-support agent that classifies intent, drafts grounded replies, and decides auto-handle vs escalate — built on real data from the Customer Support on Twitter dataset and cross-validated on Banking77.
 
 ---
 
