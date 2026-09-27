@@ -1,7 +1,9 @@
 <div align="center">
 
 <img src="jyotirmoy_equation_reveal.gif" width="420" alt="Jyotirmoy Saikia" />
+
 </div>
+
 ---
 
 # Jyotirmoy Saikia
