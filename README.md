@@ -26,7 +26,7 @@ I build the infrastructure layer where training efficiency meets model evaluatio
 - 🔭 Worked as an **AI/ML Analyst at Outlier**, providing RLHF preference signal and cataloguing model failure modes across code generation, reasoning, and instruction-following tasks.
 - 🧪 Selected for the **Research Intern at VLED Lab, IIT Ropar**.
 - 🌍 Research collaborator at **MIT Critical Data**, under Dr. Leo Anthony Celi, M.D., M.S., M.P.H.
-- 🎓 Selected for the **YEL Summer Cohort 2026**, from 2,000+ applicants across 73 countries.
+- 🎓 Selected for the **YEL Summer Cohort 2026**, from 2,000+ applicants across 73 countries. Co-authored a peer-reviewed paper on "[Market-Based and Text-Based Measures of Investor Sentiment - A Literature Review](https://docs.google.com/document/d/189rNpa-8U1hHyAMcR0VRJ94UAyuAdaGc/)"
 - ⚡ I debug distributed training the hard way — I've reproduced and documented gradient explosions, CUDA OOM crashes, and silent `DistributedSampler` bugs, not just fixed them.
 
 ---
@@ -76,3 +76,6 @@ An AI customer-support agent that classifies intent, drafts grounded replies, an
 - 🎖️ **NEC Merit Scholarship** recipient
 - ✅ Qualified on-campus interviews at ORC Engineering and ELEATION
 
+
+
+© 2026 · All Rights Reserved
