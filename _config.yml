@@ -3,4 +3,9 @@ plugins:
 - jekyll-remote-theme 
 sass:
   style: compressed
-  layout: compressed
+defaults:
+  -scope:
+      path: ""
+   values:
+      layout: default
+  
