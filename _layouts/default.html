@@ -6,15 +6,14 @@
   </button>
   
   <!-- The dynamic list container where headings will be populated -->
-  <div id="tocDropdownMenu" class="toc-dropdown-content">
+  <div id="tocDropdownMenu" class="toc-page-content">
     <div class="toc-header">Page Navigation</div>
     <ul id="tocList"></ul>
   </div>
 </div>
 
-<!-- 2. UI Styling -->
 <style>
-  .toc-dropdown-container {
+  .toc-page-container {
     position: fixed;
     bottom: 30px;
     right: 30px;
@@ -22,7 +21,6 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   }
   
-  /* 3-Dot Button Interface */
   #tocMenuBtn {
     width: 50px;
     height: 50px;
@@ -51,8 +49,7 @@
     border-radius: 50%;
   }
   
-  /* Dropdown Menu styling */
-  .toc-dropdown-content {
+  .toc-page-content {
     display: none;
     position: absolute;
     bottom: 60px;
@@ -66,7 +63,7 @@
     overflow-y: auto;
   }
   
-  .toc-dropdown-content.show {
+  .toc-page-content.show {
     display: block;
   }
   
