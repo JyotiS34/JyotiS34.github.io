@@ -6,7 +6,6 @@
 
 ---
 
-# Jyotirmoy Saikia
 
 **B.Tech ETE (Class of 2026) · ML Systems & LLM Evaluation**
 
@@ -67,6 +66,9 @@ An consent audit that reveals not just what permissions exist, but what your com
 An AI customer-support agent that classifies intent, drafts grounded replies, and decides auto-handle vs escalate — built on real data from the Customer Support on Twitter dataset and cross-validated on Banking77.
 
 ---
+
+### Resume
+<button type="button">[Download Resume](https://drive.google.com/file/d/1b0spqamvqk1ld3blFPDEiJ4NBm1BUo_z/view?usp=drivesdk)</button>
 
 ### Achievements
 
