@@ -1,0 +1,153 @@
+<div class="toc-dropdown-container">
+  <button id="tocMenuBtn" onclick="toggleTocMenu()" aria-label="Toggle page headings menu">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </button>
+  
+  <!-- The dynamic list container where headings will be populated -->
+  <div id="tocDropdownMenu" class="toc-dropdown-content">
+    <div class="toc-header">Page Navigation</div>
+    <ul id="tocList"></ul>
+  </div>
+</div>
+
+<!-- 2. UI Styling -->
+<style>
+  .toc-dropdown-container {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  
+  /* 3-Dot Button Interface */
+  #tocMenuBtn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #24292e;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: background-color 0.2s, transform 0.2s;
+  }
+  
+  #tocMenuBtn:hover {
+    background-color: #0366d6;
+    transform: scale(1.05);
+  }
+  
+  #tocMenuBtn .dot {
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  /* Dropdown Menu styling */
+  .toc-dropdown-content {
+    display: none;
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+    width: 280px;
+    max-height: 400px;
+    background-color: #ffffff;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    overflow-y: auto;
+  }
+  
+  .toc-dropdown-content.show {
+    display: block;
+  }
+  
+  .toc-header {
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #f6f8fa;
+    border-bottom: 1px solid #e1e4e8;
+    color: #24292e;
+  }
+  
+  #tocList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #tocList li a {
+    display: block;
+    padding: 8px 15px;
+    color: #586069;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 1.4;
+    border-bottom: 1px solid #f6f8fa;
+  }
+  
+  #tocList li a:hover {
+    background-color: #f1f8ff;
+    color: #0366d6;
+  }
+  
+  #tocList li.toc-h2 a { padding-left: 15px; font-weight: 500; }
+  #tocList li.toc-h3 a { padding-left: 30px; color: #6a737d; }
+  #tocList li.toc-h4 a { padding-left: 45px; color: #6a737d; font-size: 12px; }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const contentArea = document.querySelector('.page-content') || document.querySelector('.post-content') || document.body;
+    
+    const headings = contentArea.querySelectorAll('h2, h3, h4');
+    const tocList = document.getElementById('tocList');
+    
+    if (headings.length === 0) {
+      const li = document.createElement('li');
+      li.innerHTML = '<a href="#" style="font-style: italic; color: #999;">No headings found</a>';
+      tocList.appendChild(li);
+      return;
+    }
+
+    headings.forEach((heading, index) => {
+      if (!heading.id) {
+        heading.id = 'heading-' + index;
+      }
+      
+      const li = document.createElement('li');
+      li.className = 'toc-' + heading.tagName.toLowerCase(); 
+      
+      const a = document.createElement('a');
+      a.href = '#' + heading.id;
+      a.textContent = heading.textContent.trim().replace(/#\s*$/, ''); 
+      
+      a.addEventListener('click', () => {
+        document.getElementById('tocDropdownMenu').classList.remove('show');
+      });
+      
+      li.appendChild(a);
+      tocList.appendChild(li);
+    });
+  });
+
+  function toggleTocMenu() {
+    document.getElementById('tocDropdownMenu').classList.toggle('show');
+  }
+
+  window.addEventListener('click', function(event) {
+    const container = document.querySelector('.toc-dropdown-container');
+    if (!container.contains(event.target)) {
+      document.getElementById('tocDropdownMenu').classList.remove('show');
+    }
+  });
+</script>
