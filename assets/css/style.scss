@@ -1,0 +1,22 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.download-resume {
+  display: inline-block;
+  padding: 12px 25px;
+  background: linear-gradient(135deg, #fff3a3, #ffd700, #d4af37);
+  color: #3d2b00 !important;
+  font-weight: bold;
+  text-decoration: none !important;
+  border-radius: 8px;
+  border: 2px solid #d4af37;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.download-resume:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
