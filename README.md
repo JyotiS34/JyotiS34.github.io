@@ -68,7 +68,7 @@ An AI customer-support agent that classifies intent, drafts grounded replies, an
 ---
 
 ### Resume
-<a href="https://drive.google.com/file/d/1b0spqamvqk1ld3blFPDEiJ4NBm1BUo_z/view?usp=drivesdk"
+<a href="https://drive.google.com/file/d/1Jf-rQXRtRMvolODH6hd99RXnFzjbLY2b/view"
    class="download-resume">
   Download Resume
 </a>
