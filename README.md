@@ -28,7 +28,7 @@ I use **Claude Code, Cursor, OpenCode, and Z.ai agents** in my daily development
 - 🔭 Worked as an **AI/ML Analyst at Outlier**, providing RLHF preference signals for 500+ model outputs and documenting recurring failure modes across code generation, reasoning, and instruction following.
 - 🧪 Accepted as a **Research Intern at VLED Lab, IIT Ropar**.
 - 🌍 Research collaborator at **MIT Critical Data**, under Dr. Leo Anthony Celi, M.D., M.S., M.P.H.
-- 🛰️ Member of NASA Open Science Data Repository's **Analysis Working Group**, active in the AI/ML working group.
+- 🛰️ Member of NASA Open Science Data Repository's **Analysis Working Group**, active in the AI/ML analysis working group.
 - 🎓 Selected for the **YEL Summer Cohort 2026** from 2,000+ applicants across 73 countries; co-authored a paper on [Market-Based and Text-Based Measures of Investor Sentiment](https://docs.google.com/document/d/189rNpa-8U1hHyAMcR0VRJ94UAyuAdaGc/).
 
 ---
