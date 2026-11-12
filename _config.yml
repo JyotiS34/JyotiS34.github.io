@@ -1,7 +1,5 @@
-remote_theme: pages-themes/midnight@v0.2.0
-
-plugins:
-  - jekyll-remote-theme
+title: Jyotirmoy Saikia
+description: Full-Stack AI Engineer building AI-powered products, agentic workflows, and reliable ML systems.
 
 sass:
   style: compressed
