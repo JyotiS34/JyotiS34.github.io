@@ -6,7 +6,7 @@
 
 ---
 
-**Full-Stack AI Engineer · ML Systems & LLM Evaluation**  
+**Full-Stack AI Engineer · ML Systems & LLM Evaluatin**  
 B.Tech Electronics & Telecommunication Engineering · Class of 2026
 
 AI-powered products · Agentic workflows · LLM evaluation · Distributed systems
