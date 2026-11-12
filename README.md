@@ -41,7 +41,7 @@ I use **Claude Code, Cursor, OpenCode, and Z.ai agents** in my daily development
 
 **Backend & APIs** — FastAPI · Node.js runtime (Next.js API Routes) · Prisma ORM · Vercel Serverless Functions
 
-**AI / LLM** — PyTorch · Hugging Face Transformers · Groq API · LangChain · FAISS · Chroma · RLHF · LLM Evaluation · Prompt Engineering · NLP
+**AI / LLM** — PyTorch · Hugging Face Transformers · LangChain · FAISS · Chroma · RLHF · LLM Evaluation · Prompt Engineering · NLP
 
 **Distributed Systems & Infrastructure** — PyTorch DDP · NCCL · AMP · `torch.profiler` · AWS · GCP · Docker · Vercel · Git
 
